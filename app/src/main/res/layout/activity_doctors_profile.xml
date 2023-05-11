@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctorsProfile">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:orientation="horizontal"
+      android:background="@color/startintro"
+      tools:ignore="MissingConstraints">
+      <ImageView
+          android:layout_width="40dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ic_baseline_arrow_back_24"
+          android:layout_gravity="center_vertical"
+          >
+
+      </ImageView>
+  </LinearLayout>
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="70dp"
+        android:text="Edit Profile"
+        android:textColor="@color/purple"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Profile_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/userNameprofiledoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_edittext"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Profile_image" />
+
+
+    <EditText
+        android:id="@+id/emailaddprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userNameprofiledoctor" />
+
+
+    <EditText
+        android:id="@+id/Phoneaddprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:background="@drawable/custom_edittext"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailaddprofile" />
+
+
+    <EditText
+        android:id="@+id/passwordaddprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phoneaddprofile" />
+
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Add"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordaddprofile" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

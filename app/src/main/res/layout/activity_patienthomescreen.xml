@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/startintro"
+    tools:context=".patienthomescreen">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+         android:orientation="vertical">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="?actionBarSize">
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:padding="15dp"
+                 android:src="@drawable/general_menu"
+                 android:layout_centerVertical="true"></ImageView>
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignStart="@+id/notification"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginStart="-40dp"
+                 android:padding="15dp"
+                 android:src="@drawable/ic_baseline_search_24"></ImageView>
+
+             <ImageView
+                 android:id="@+id/notification"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:padding="15dp"
+                 android:src="@drawable/notification"
+                 android:layout_centerVertical="true"
+                 android:layout_alignParentRight="true"></ImageView>
+         </RelativeLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="10dp"
+             android:text="Welcome to Medicose"
+             android:textAllCaps="true"
+             android:textColor="@color/white"
+             android:textSize="30sp"></TextView>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="160dp"
+             android:background="@drawable/cardesign"
+             android:elevation="100sp"
+             android:layout_marginTop="30dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginRight="24dp"
+                 android:text="Check \nSelf Diagnosis"
+                 android:textColor="@color/startintro"
+                 android:textSize="35dp"
+                 android:textStyle="bold"></TextView>
+
+             <TextView
+                 android:id="@+id/secondtext"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginRight="59dp"
+                 android:layout_marginBottom="9dp"
+                 android:text="Are you not sure about\nappointing dctor \nDon't worry we have Solution"
+                 android:textColor="@color/endintro"
+                 android:textSize="15dp"
+                 android:textStyle="bold"></TextView>
+
+             <ImageView
+                 android:id="@+id/selfdgbtn"
+                 android:layout_width="60dp"
+                 android:layout_height="30dp"
+                 android:layout_alignRight="@id/secondtext"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginRight="-57dp"
+                 android:layout_marginBottom="5dp"
+                 android:src="@drawable/rightarrow"></ImageView>
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="160dp"
+                 android:src="@drawable/takingnotes"></ImageView>
+         </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="160dp"
+             android:background="@drawable/cardesign"
+             android:elevation="100sp"
+             android:layout_marginTop="20dp">
+
+             <TextView
+                 android:layout_width="283dp"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginTop="0dp"
+                 android:layout_marginRight="105dp"
+                 android:text=" Book Online\n Appointment"
+                 android:textColor="@color/startintro"
+                 android:textSize="35dp"
+                 android:textStyle="bold"></TextView>
+
+             <TextView
+                 android:id="@+id/secondtext1"
+                 android:layout_width="242dp"
+                 android:layout_height="66dp"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginRight="142dp"
+                 android:layout_marginBottom="4dp"
+                 android:text=" Are you not able to go to Hospital\n Book Appointment \n Don't worry we have Solution"
+                 android:textColor="@color/endintro"
+                 android:textSize="15dp"
+                 android:textStyle="bold"></TextView>
+
+             <ImageView
+                 android:id="@+id/appointment"
+                 android:layout_width="60dp"
+                 android:layout_height="30dp"
+                 android:layout_alignRight="@id/secondtext1"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginRight="-22dp"
+                 android:layout_marginBottom="6dp"
+                 android:src="@drawable/rightarrow"></ImageView>
+
+             <ImageView
+                 android:layout_width="126dp"
+                 android:layout_height="match_parent"
+                 android:layout_alignParentEnd="true"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginEnd="-3dp"
+                 android:layout_marginBottom="0dp"
+                 android:src="@drawable/appointment"></ImageView>
+         </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="160dp"
+             android:background="@drawable/cardesign"
+             android:elevation="100sp"
+             android:layout_marginTop="20dp">
+
+             <TextView
+                 android:layout_width="228dp"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginRight="20dp"
+                 android:text="See Your \nAppointments"
+                 android:textColor="@color/startintro"
+                 android:textSize="35dp"
+                 android:textStyle="bold"></TextView>
+
+             <TextView
+                 android:id="@+id/secondtext2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginRight="48dp"
+                 android:layout_marginBottom="7dp"
+                 android:text="Are you not sure about\nappointing dctor \nDon't worry we have Solution"
+                 android:textColor="@color/endintro"
+                 android:textSize="15dp"
+                 android:textStyle="bold"></TextView>
+
+             <ImageView
+                 android:id="@+id/apppp"
+                 android:layout_width="60dp"
+                 android:layout_height="30dp"
+                 android:layout_alignRight="@id/secondtext2"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginRight="-57dp"
+                 android:layout_marginBottom="5dp"
+                 android:src="@drawable/rightarrow"></ImageView>
+
+             <ImageView
+                 android:layout_width="130dp"
+                 android:layout_height="139dp"
+                 android:layout_alignParentStart="true"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginStart="0dp"
+                 android:layout_marginBottom="10dp"
+                 android:src="@drawable/time"></ImageView>
+         </RelativeLayout>
+
+     </LinearLayout>
+
+</ScrollView>

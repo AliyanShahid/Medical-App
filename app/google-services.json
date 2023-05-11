@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "623792469863",
+    "project_id": "medicose2-26e42",
+    "storage_bucket": "medicose2-26e42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623792469863:android:71d196a7bc05d9bcdde1c2",
+        "android_client_info": {
+          "package_name": "com.aliyanshahidsatti.medicose2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623792469863-3b001selbbqdj266f5fm1785kcltdg8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aliyanshahidsatti.medicose2",
+            "certificate_hash": "9ec8e9af7ea9b0caeaad4536f57ad32f01113e92"
+          }
+        },
+        {
+          "client_id": "623792469863-av4epclle723i6ai1h5mih8svieih7n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZMni0WAXzP4U_r6gzUyHA7Wc0GqhB7tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623792469863-av4epclle723i6ai1h5mih8svieih7n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

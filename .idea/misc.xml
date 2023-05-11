@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/medicose2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.136" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/btn_rounded.xml" value="0.242" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/button_common_style.xml" value="0.242" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/button_style_login.xml" value="0.1085" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/cardesign.xml" value="0.202" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/custom_edittext.xml" value="0.124" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/doctor_intro.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/doctor_reg_button.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/doctor_reg_edittext.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/doctorsigin_bg.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/general_menu.xml" value="0.2275" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/ic_add_circle_black.xml" value="0.242" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2275" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/intro_background.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/introbutton.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/notification.xml" value="0.136" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/search_bg.xml" value="0.136" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/shape_btn.xml" value="0.2555" />
+        <entry key="..\:/medicose2/app/src/main/res/drawable/startintrocurve.xml" value="0.2065" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_accept_data.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_add__prescription.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_all__prescriptions.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_all_comments.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_all_slots.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_booking_appointmen_doctor.xml" value="0.2223731884057971" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_dashboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_display__patients.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_doc_schedule.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_doctor_details_patient.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_doctor_home_screen.xml" value="0.21777777777777776" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_doctorlogin.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_doctors_list_appointment.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_doctors_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_doctorsignup.xml" value="0.2" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_forgotpassword.xml" value="0.2" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_login_tab_fragment.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_patient__dashboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_patient__log_in.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_patient_dashboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_patient_details.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_patient_signup.xml" value="0.16" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_patienthomescreen.xml" value="0.264" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_patientlogin.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_selfdiagnose.xml" value="0.2" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/activity_signup_tab_fragment.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/appbar_home_drawer.xml" value="0.1" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/content_home.xml" value="0.1" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/doctoritems.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/dropdown_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/headerfile.xml" value="0.1" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/list_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/list_view.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/lv_all_pres.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/lv_slot_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/medicose2/app/src/main/res/layout/username.xml" value="0.22826086956521738" />
+        <entry key="..\:/medicose2/app/src/main/res/menu/mainmenu.xml" value="0.264" />
+        <entry key="..\:/medicose2/app/src/main/res/menu/sidemenu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

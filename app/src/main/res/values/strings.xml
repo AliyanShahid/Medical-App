@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">medicose2</string>
+    <string name="select">Select City</string>
+    <string name="profession">Select Profession</string>
+    <string name="day">Day Available</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="doc_names">form</string>
+    <string-array name="names">
+        <item> Cardiologists</item>
+        <item> Dermatologists</item>
+        <item> Allergists</item>
+        <item> Infectious Disease Doctors</item>
+    </string-array>
+
+    <string-array name="doc_names">
+        <item> Mahrukh</item>
+        <item> Aliyan</item>
+        <item> Adeeba</item>
+        <item> Fatima</item>
+        <item> Usama</item>
+    </string-array>
+</resources>

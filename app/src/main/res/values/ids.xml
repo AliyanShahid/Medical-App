@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="loginText" type="id" />
+    <item name="Profile_image" type="id" />
+    <item name="userName" type="id" />
+    <item name="email" type="id" />
+    <item name="Phone" type="id" />
+    <item name="signUpBtn" type="id" />
+    <item name="textView" type="id" />
+    <item name="already_have_acc" type="id" />
+    <item name="drawerlayout" type="id" />
+    <item name="appbar_home_navigation_drawer" type="id" />
+    <item name="naviation" type="id" />
+</resources>
